@@ -1,3 +1,4 @@
 {
-  "mongoURI": "mongodb+srv://erantona:erantona@cluster0.yylg0.mongodb.net/<dbname>?retryWrites=true&w=majority"
+  "mongoURI": "mongodb+srv://erantona:erantona@cluster0.yylg0.mongodb.net/<dbname>?retryWrites=true&w=majority",
+  "jwtSecret": "toxicOP90"
 }

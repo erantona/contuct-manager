@@ -6,7 +6,10 @@ const app = express();
 // Connect db
 connectDB();
 
-app.get('/', (req, res) => res.send('Jio KAKA'));
+// Init Middleware
+app.use(express.json({ extended: false }));
+
+app.get('/', (req, res) => res.send('Home page'));
 
 // Define routes
 app.use('/api/users', require('./routes/users'));
